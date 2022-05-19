@@ -12,10 +12,31 @@ export class Customer {
     email: string;
 
     @Prop()
+    maritalStatus: string;
+
+    @Prop()
+    profession: string;
+
+    @Prop()
     cpf: string;
 
     @Prop()
+    rg: string;
+
+    @Prop()
     cep: string;
+
+    @Prop()
+    street: string;
+
+    @Prop()
+    city: string;
+
+    @Prop()
+    state: string;
+
+    @Prop()
+    cellphone: string;
 
     @Prop()
     birthDate: Date;
