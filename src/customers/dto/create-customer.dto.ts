@@ -5,6 +5,7 @@ export class CreateCustomerDto {
     name: string; 
     cep: string; 
     street: string;
+    district: string;
     city: string;
     state: string;
     maritalStatus: string;
@@ -13,5 +14,4 @@ export class CreateCustomerDto {
     cpf: string;
     rg: string;
     cellphone: string;
-
 }

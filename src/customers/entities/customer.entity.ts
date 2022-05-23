@@ -30,6 +30,9 @@ export class Customer {
     street: string;
 
     @Prop()
+    district: string;
+
+    @Prop()
     city: string;
 
     @Prop()
