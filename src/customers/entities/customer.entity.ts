@@ -24,6 +24,9 @@ export class Customer {
     rg: string;
 
     @Prop()
+    nacionality: string;
+
+    @Prop()
     cep: string;
 
     @Prop()

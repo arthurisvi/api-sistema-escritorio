@@ -4,6 +4,7 @@ export class CreateCustomerDto {
     email: string;
     name: string; 
     cep: string; 
+    nacionality: string;
     street: string;
     district: string;
     city: string;
